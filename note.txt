@@ -1,0 +1,21 @@
+Function PHP
+-----------------
+- Mengamankan input, supaya saat user input element html pada form input, maka element tsb tidak berjalan
+  Gunakan: htmlspecialchars(string)
+- header('Location: namaFile');
+- Jika ingin form bisa mengirim file yang data file nya disimpan dalam $_FILE. Gunakan enctype
+  <form action="" method="post" enctype="multipart/form-data"></form>
+- end() - Mengambil nilai terakhir dari array
+- explode() => Memisahkan string (spt split() di java) (array)
+- implode() => Menggabungkan array (spt join() di java) (string)
+- in_array() => jika suatu string ada di dalam array (false/true)
+- move_uploaded_file() => upload file ke destinasi yang diinginkan
+- uniqid() => buat string secara acak
+
+Function JS
+------------------
+- document.location.href
+  Untuk redirect 
+
+Satuan
+- 1 juta byte = 1 mb
